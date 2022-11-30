@@ -1,0 +1,338 @@
+.careers {
+    
+    width:100%;
+    height:750px;
+    background-image: url('../../images/images-staging/careers-bg.png');
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+
+.careers >
+    .ch {
+        width:651px;
+        position:relative;
+        left:250px;
+        top:150px;
+    }
+
+.careers >
+    .ch >
+        .c-header {
+            padding-bottom:10px;
+            color: #B9B9B9;
+            font-size: 16px;
+            font-family: 'Poppins', 'sans-serif';
+        }
+
+.careers > .ch > 
+    .ch-1 > 
+        span {
+            font-size:65px;
+            letter-spacing: -4px;
+            color:white;
+            cursor:none;
+            font-weight:400;
+            line-height: 65px;
+        }
+.careers > .ch > 
+    .ch-2 > 
+        span {
+            font-size:65px;
+            font-weight:bold;
+            letter-spacing: -4px;
+            color:white;
+            line-height:65px;
+        }
+
+.careers-button {
+    align-items: center;
+    appearance: none;
+    background-color: #58B1BA;
+    background-image: linear-gradient(139deg, #58B1BA);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Poppins';
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 14px 35px;
+    position: relative;
+    top:40px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    transition:0.5s ease-in-out
+    
+}
+
+.before-footer-socials {
+	padding-top:170px;
+	font-size:22px;
+
+}
+
+.before-footer-socials>a:hover {
+    color:#4C98A1
+}
+
+.before-footer-socials > a{
+    transition:0.2s ease-in-out;
+    color:white;
+    text-decoration:none
+}
+
+.careers-button a {
+    text-decoration:none;
+    color: white;
+}
+    
+.careers-button:active,
+.careers-button:focus {
+    outline: none;
+}
+    
+.careers-button:hover {
+    background-position: -20px -20px;
+    background-image: linear-gradient(139deg, #58B1BA, #185266);
+}
+
+.careers-button:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+@media only screen and (max-width:1500px){
+    .careers >
+        .ch {
+            width:651px;
+            position:relative;
+            left:236px;
+            top:150px;
+        }
+
+}
+
+@media only screen and (max-width:1220px){
+    .careers >
+        .ch {
+            width:651px;
+            position:relative;
+            left:136px;
+            top:150px;
+        }
+
+}
+
+@media only screen and (max-width:900px){
+    .careers {
+        width:100%;
+        height:452px;
+        background-image: url('../../images/images-staging/careers-bg-t.png');
+        background-repeat: no-repeat;
+        background-size:auto 100%;
+        background-position:center;
+    }
+
+    .careers >
+        .ch {
+            width:383px;
+            position:relative;
+            left:80px;
+            top:69px;
+        }
+
+    .careers > .ch > 
+        .ch-1 > 
+            span {
+                font-size:38px;
+                letter-spacing: -2px;
+                color:white;
+                cursor:none;
+                font-weight:400;
+                
+            }
+    .careers > .ch > 
+        .ch-2 > 
+            span {
+                font-size:38px;
+                font-weight:bold;
+                letter-spacing: -2px;
+                color:white;
+                line-height:25px
+            }
+    .careers-button {
+        position: relative;
+        top:25px;
+    }
+
+    .before-footer-socials {
+        padding-top:60px;
+    }
+                
+}
+
+
+@media only screen and (max-width:480px){
+    .careers {
+        width:100%;
+        height:547px;
+        background-image: url('../../images/images-staging/careers-bg-m.png');
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 480px;
+    }
+
+    .careers >
+        .ch {
+            margin-right: 20px;
+            margin-left: 20px;
+            position:relative;
+            width:auto;
+            left:0px;
+            display:block;
+            align-items:center;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+        }
+
+    .careers > .ch > 
+        .ch-1 > 
+            span {
+                font-size:38px;
+                letter-spacing: -2px;
+                color:white;
+                cursor:none;
+                font-weight:400;
+                text-align:center;
+                
+            }
+    .careers > .ch > 
+        .ch-2 > 
+            span {
+                font-size:38px;
+                font-weight:bold;
+                letter-spacing: -2px;
+                color:white;
+                line-height:25px
+            }
+    .careers-button {
+        position: relative;
+        top:25px;
+    }
+                
+}
+
+
+@media only screen and (max-width:375px){
+    .careers {
+        width:100%;
+        height:547px;
+        background-image: url('../../images/images-staging/careers-bg-m.png');
+        background-repeat: no-repeat;
+     
+    }
+
+    .careers >
+        .ch {
+            margin-right: 20px;
+            margin-left: 20px;
+            position:relative;
+            width:auto;
+            left:0px;
+            top:40px;
+            display:block;
+            align-items:center;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+        }
+
+    .careers > .ch > 
+        .ch-1 > 
+            span {
+                font-size:38px;
+                letter-spacing: -2px;
+                color:white;
+                cursor:none;
+                font-weight:400;
+                text-align:center;
+                
+            }
+    .careers > .ch > 
+        .ch-2 > 
+            span {
+                font-size:38px;
+                font-weight:bold;
+                letter-spacing: -2px;
+                color:white;
+                line-height:25px
+            }
+    .careers-button {
+        position: relative;
+        top:25px;
+    }
+                
+}
+
+@media only screen and (max-width:320px){
+    .careers {
+        width:100%;
+        height:547px;
+        background-image: url('../../images/images-staging/careers-bg-m.png');
+        background-repeat: no-repeat;
+        
+        
+    }
+
+    .careers >
+        .ch {
+            margin-right: 20px;
+            margin-left: 20px;
+            position:relative;
+            width:auto;
+            left:0px;
+            top:40px;
+            display:block;
+            align-items:center;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+        }
+
+    .careers > .ch > 
+        .ch-1 > 
+            span {
+                font-size:30px;
+                letter-spacing: -2px;
+                color:white;
+                cursor:none;
+                font-weight:400;
+                text-align:center;
+                
+            }
+    .careers > .ch > 
+        .ch-2 > 
+            span {
+                font-size:30px;
+                font-weight:bold;
+                letter-spacing: -2px;
+                color:white;
+                line-height:25px
+            }
+    .careers-button {
+        position: relative;
+        top:25px;
+    }
+                
+}

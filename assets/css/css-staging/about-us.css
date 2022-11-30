@@ -1,0 +1,235 @@
+.about-us {
+    width:100%;
+    height:auto;
+    background-image: url('../../images/images-staging/au-bg.png');
+    background-size:cover;
+}
+.about-us >
+    .container-fluid {
+        margin:0 auto;
+        padding-left:13.38%;
+        padding-top:110px;
+        padding-bottom:110px;
+        padding-right:13.38%;
+    }
+
+.about-us >
+    .container-fluid >
+        .row > 
+            .col-xxl-7 >
+                .au-image {
+                    overflow:hidden;
+
+                    
+                    height:auto;
+                    width:100%;
+                }
+
+.about-us >
+    .container-fluid >
+        .row > 
+            .col-xxl-7 >
+                .au-image > 
+                    img {
+                        width:100%;
+                        height:auto;
+                    }
+.about-us >
+    .container-fluid >
+        .row > 
+            .col-xxl-5 >
+                .au-h {
+                    padding-top:27%;
+                    padding-left:87px;
+                }
+.about-us >
+    .container-fluid >
+        .row > 
+            .col-xxl-5 >
+                .au-wc {
+                    padding-left:87px;
+                    font-size:3.5vw;
+                    color:black;
+                    letter-spacing:-2.27px;
+                    font-family: 'Poppins', 'sans-serif';
+                }
+.about-us >
+    .container-fluid >
+        .row > 
+            .col-xxl-5 >
+                .au-rd {
+                    position:relative;
+                    top:-20px;
+                    padding-left:87px;
+                    font-size:3.5vw;
+                    color:black;
+                    font-weight:bold;
+                    letter-spacing:-2.27px;
+                    font-family: 'Poppins', 'sans-serif';
+                    padding-bottom: 15px;
+                }       
+.about-us >
+    .container-fluid >
+        .row > 
+            .col-xxl-5 >
+                .au-desc {
+                        position:relative;
+                        top:-20px;
+                        margin-left:87px;
+                        font-size:16px!important;
+                        width:450px;
+                        padding-bottom:15px;
+                    }
+.au-button {
+    position:relative;
+    left:87px;
+    align-items: center;
+    appearance: none;
+    background-color: #58B1BA;
+    background-image: linear-gradient(139deg, #58B1BA);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Poppins';
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 14px 35px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.au-button:active,
+.au-button:focus {
+    outline: none;
+}
+
+.au-button:hover {
+    background-position: -20px -20px;
+    background-image: linear-gradient(139deg, #58B1BA, #185266);
+}
+
+.au-button:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+.au-button >
+    a {
+        text-decoration:none;
+        color:white;
+    }
+
+@media only screen and (max-width:1399px) {
+  
+.about-us >
+    .container-fluid >
+        .row > 
+            .col-xxl-5 >
+                .au-h {
+                    padding-top:40px;
+                    padding-left:40px;
+                }
+.about-us >
+    .container-fluid >
+        .row > 
+            .col-xxl-5 >
+                .au-wc {
+                    padding-left:40px;
+                    
+                }
+.about-us >
+    .container-fluid >
+        .row > 
+            .col-xxl-5 >
+                .au-rd {
+                    padding-left:40px;
+                }       
+.about-us >
+    .container-fluid >
+        .row > 
+            .col-xxl-5 >
+                .au-desc {
+                        margin-left: 40px;
+                        font-size: 14px!important;
+                        width: 350px;
+                        
+                    }
+.au-button {
+    left:40px;
+}
+}
+
+@media only screen and (max-width:991px) {
+    .about-us > .container-fluid > .row > .col-xxl-5 > .au-h {
+        text-align:center;
+        font-size: 16px !important;
+        padding-left:0px
+    }
+    .about-us > .container-fluid > .row > .col-xxl-5 > .au-rd {
+        text-align:center;
+        font-size: 48px!important;
+        padding-left:0px;
+    }
+    .about-us > .container-fluid > .row > .col-xxl-5 > .au-wc {
+        text-align:center;
+        font-size: 48px!important;
+        padding-left:0px
+    }
+    .about-us > .container-fluid > .row > .col-xxl-5 > .au-desc{
+        text-align:center;
+        justify-content: center;
+        font-size: 16px!important;
+        line-height:28px;
+        width:auto;
+        margin-left:0px;
+        
+    }
+
+    .au-button-cont {
+        justify-content:center;
+        text-align:center;
+    }
+
+    .au-button {
+        left:0px
+    }
+
+    
+}
+
+@media only screen and (max-width:768px) {
+    
+    .about-us > .container-fluid > .row > .col-xxl-5 > .au-desc{
+        
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    
+    .about-us > .container-fluid > .row > .col-xxl-5 > .au-desc{
+        
+    }
+
+}   
+
+@media only screen and (max-width:389px){
+    .au-wc{
+        padding-bottom:20px;
+        line-height:50px;
+    }
+    .au-rd {
+        line-height:50px;
+    }
+}

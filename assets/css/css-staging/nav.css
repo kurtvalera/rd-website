@@ -1,0 +1,428 @@
+.navbar {
+    height: 120px;
+    width:100%;
+    background-color: #000000;
+    opacity: 0.9;
+    filter:alpha(opacity=90);
+}
+
+.navbar-dark .navbar-toggler {
+    color:black;
+    border-color:black
+}
+
+.navbar-logo {
+    margin:auto;
+    position: relative;
+    left: 80px;
+    margin-top:10px;
+}
+
+.contact-button{
+    margin:auto;
+    position:relative;
+    right:60px;
+}
+.navbar > 
+    .collapse > 
+        .navbar-nav {
+            margin:0 auto;
+        }
+
+
+.navbar >
+    .collapse > 
+        .navbar-nav >
+            .nav-contact {
+                margin-top: 7px;
+                margin-left: 35px;
+                padding-right:30px;
+            }
+
+.navbar > 
+    .collapse >
+        .navbar-nav >
+            .nav-item > 
+                .nav-link {
+                    color:#B9B9B9;
+                    font-family:'Poppins', 'sans-serif';
+                    font-size: 16px;
+                    margin-right: 17.5px;
+                    margin-left: 17.5px;
+                    margin-top:10px;
+                } 
+
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+#contact-button {
+   
+    margin-top:19px;
+}
+
+.contact-button {
+    
+    align-items: center;
+    appearance: none;
+    background-color: #58B1BA;
+    background-image: linear-gradient(139deg, #58B1BA);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Poppins';
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 10px 35px;
+    position: relative;
+    
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+  
+  }
+  .contact-button:active,
+  .contact-button:focus {
+    outline: none;
+  }
+  .contact-button:hover {
+    background-position: -20px -20px;
+    background-image: linear-gradient(139deg, #58B1BA, #185266);
+    opacity:1;
+    color:white;
+    text-decoration:none;
+  }
+  .contact-button:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+  }
+
+/* To hide smaller viewport contents */
+
+.navbar >
+    .navbar-toggler {
+        display:none;
+    }
+
+.navbar >
+    .mobile-logo {
+        display:none;
+    }
+
+.mail-to {
+    display:none;
+}
+
+.toggled-content {
+    display: none;
+}
+
+
+
+/* Tablet */
+@media only screen and (max-width: 1279px) {
+
+.navbar > 
+    .collapse >
+        .navbar-nav >
+            .nav-item > 
+                .nav-link {
+                    color:#B9B9B9;
+                    font-family:'Poppins', 'sans-serif';
+                    font-size: 16px;
+                    margin-right: 10.5px;
+                    margin-left: 10.5px;
+                    margin-top:10px;
+                }            
+
+.toggled-content {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 1194px ) {
+    /* 
+        Tablet navigation
+    */
+
+/* To hide larger viewports content */
+.navbar-expand-lg .navbar-collapse {
+    display:none!important;
+    flex-basis: auto;
+}
+
+
+.navbar >
+    .navbar-toggler {
+        margin-left:80px; 
+        display: inline-flex;
+    }
+
+.navbar >
+    .mobile-logo {
+        margin: 0 auto;
+        display: inline-flex;
+    }
+
+.mail-to {
+    align-items: center;
+    appearance: none;
+    background-color: #58B1BA;
+    background-image: linear-gradient(139deg, #58B1BA);
+    background-size: calc(100% + 20px) calc(100% + 20px);
+    border-radius: 100px;
+    border-width: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Poppins';
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 15px 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .2s,background-position .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    /* Same as .navbar-toggler's padding-left: 80px; */
+    margin-right: 80px;
+}
+
+.mail-to:active,
+.mail-to:focus {
+    outline: none;
+}
+
+.mail-to:hover {
+    background-position: -20px -20px;
+    background-image: linear-gradient(139deg, #58B1BA, #185266);
+}
+
+.mail-to:focus:not(:active) {
+    box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+.mail-to a {
+    text-decoration:none;
+    color:white;
+}
+
+/* Toggled Content */
+
+body.toggled-content {
+    overflow-y:hidden;
+    overflow:hidden;
+}
+
+#navbarToggleContent ul li a {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+.toggled-content {
+    background-color:black;
+    height:100vh!important;
+    width:100%;
+    opacity: 0.90;
+    filter: alpha(opacity=50);
+    backdrop-filter: blur(20px);
+    position: fixed;
+    overflow:hidden;
+    z-index:3;
+}
+
+.toggled-content >
+    ul{
+        margin-top: 180px;
+        margin-left: 80px;
+        margin-right: 80px;
+        list-style-type: none;
+        padding-left:0px;
+    }
+
+.toggled-content >
+    ul >
+        li {
+            padding-bottom: 20px;
+            font-size:26pt;
+            font-family:'Poppins','sans-serif';
+            text-transform: uppercase;
+        }
+
+.toggled-content > 
+    span {
+        z-index:3;
+        color:#FFFFFF;
+        font-size: 26px;
+        font-weight:500;
+        padding-top:60px;
+        margin-left:80px;
+    }
+
+.toggled-content > 
+    a {
+        text-decoration:none;
+        
+    }
+
+.toggled-content >
+    a >
+        p{
+            margin-left:80px;
+            color:#FFFFFF 
+        }
+
+.toggled-content >
+    a >
+        .dig-overlay {
+            padding-top:20px;
+        }
+
+.bottom-dash {
+    width:100%
+}
+.toggled-content >
+    ol {
+        list-style-type: none;
+        display: inline-flex;
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+.toggled-content > 
+    ol > 
+        li > 
+            a{
+            margin-right: 30px;
+            text-decoration:none;
+            color:#D5D5D5;
+            font-size:26pt;
+        }
+
+}
+
+@media only screen and (max-width: 1194px) and (min-width:537px){
+    .toggled-content > ol {
+        list-style-type: none;
+        display: inline-flex;
+        margin-left: 40px;
+        margin-right: 40px;
+        position: relative;
+        top: 60px;
+        right: 110px;
+        
+    }
+
+    .toggled-content > ol > li {
+        padding-bottom:20px
+    }
+}
+
+@media only screen and (max-width: 536px) {
+    .toggled-content > ol {
+        
+        display:flex
+    }
+
+    .toggled-content > ol > li {
+        padding-bottom: 20px
+    }
+}
+
+@media only screen and (max-width: 435px){
+    .toggled-content > ol {
+        display:flex;
+        margin-left:20px
+    }   
+.navbar > 
+    .navbar-toggler {
+        margin-left: 10px;
+        display: inline-flex;
+    }
+.navbar >
+    .mail-to {
+        margin-right: 20px;
+    }
+
+.toggled-content >
+    ul >
+        li >
+            a {
+                font-size:22pt;
+            }
+
+.toggled-content > 
+    ol > 
+        li > 
+            a{
+            margin-right: 30px;
+            text-decoration:none;
+            color:#D5D5D5;
+            font-size:16pt;
+        }
+
+        .toggled-content > ul {
+
+            margin-left: 50px;
+
+        }
+
+        .toggled-content > span {
+            margin-left:50px
+        }
+
+        .toggled-content > a > p {
+            margin-left: 50px;
+            
+        }
+}
+
+@media only screen and (max-width: 315px){
+    
+    .navbar > 
+        .navbar-toggler {
+            margin-left: 20px;
+            display: inline-flex;
+        }
+    .navbar >
+        .mail-to {
+            margin-right: 20px;
+        }
+    
+    .toggled-content >
+        ul >
+            li >
+                a {
+                    font-size:22pt;
+                }
+    
+    .toggled-content > 
+        ol > 
+            li > 
+                a{
+                margin-right: 30px;
+                text-decoration:none;
+                color:#D5D5D5;
+                font-size:16pt;
+            }
+    }

@@ -1,0 +1,60 @@
+.clp-sub1 a {
+    color: #C4C4C4;
+    text-decoration:none;
+}
+
+    .careers-landing-page {
+        position: -webkit-sticky;
+        width: 100%;
+        height: 480px;
+        background-image: url('../../images/images-staging/careers-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:white;
+        scroll-behavior: smooth;
+      }
+    
+    .clp-header{
+        margin-left:260px;
+        position:relative;
+        top:240px;
+    }
+    
+    .clp-header > h1 {
+        color: white;
+    }
+    
+    .clp-sub1 {
+        position: relative;
+        top: 245px;
+        margin-left:260px;
+        
+        
+    }
+    
+    .clp-sub1 > p {
+        font-size:16px;
+        color: #C4C4C4
+    }
+    
+    .clp-sub1 > p > a:hover {
+        text-decoration:underline;
+        color:white;
+        cursor:pointer;
+    }
+    
+   
+@media only screen and (max-width:843px) {
+    .clp-header{
+        margin-left:80px;
+        position:relative;
+        top:240px;
+    }
+    .clp-sub1 {
+        position: relative;
+        top: 245px;
+        margin-left:80px;
+        
+        
+    }
+}

@@ -1,0 +1,1193 @@
+/* Projects */
+.projects {
+	width: 100%;
+	height: 790px;
+	background-image: url('../../images/images-staging/p-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+	
+}
+
+.project-overlay a {
+	transition: 0.2s ease-in-out
+}
+
+.project-overlay i {
+	transition: 0.2s ease-in-out
+}
+
+.project-overlay a:hover {
+	color:#58B1BA;
+}
+
+.project-overlay a:hover > .fa-external-link {
+	color:#58B1BA
+}
+
+.p-header {
+	width:fit-content;
+	position:relative;
+	left:260px;
+	bottom: 440px;
+}
+
+.p-title {
+	width:460px;
+	position:relative;
+	left: 260px;
+	color:black;
+	font-size:42px;
+	font-weight:bold;
+	bottom:430px;
+	line-height:50px;
+}
+
+.p-desc {
+	width: 550px;
+	position:relative;
+	left:260px;
+	bottom:410px;
+	line-height:28px;
+}
+
+.p-desc > p {
+	font-size: 16px;
+}
+
+
+.slider {
+  width: 1300px;
+  height: 600px;
+  position: relative;
+  left: 900px;
+  display: inline-block;
+  
+}
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+  z-index: 1;
+}
+
+ /* the slides */
+ .slick-slider .slick-slide {
+  padding: 0 15px;
+  height:600px;
+}
+
+.slick-track {
+	width:50%;
+}
+
+.extra-slider {
+	max-width:100vw;
+	width:100%;
+	position:relative;
+	top: 90px;
+}
+
+.slick-list{
+	width:100%;
+}
+
+.item-wrapper {
+	position: relative;
+	cursor: grab;
+}
+
+.slide-height{
+	height:600px;
+}
+
+.project-images {
+	padding: 0 0px;
+}
+
+.item-wrapper:hover .project-overlay{
+	opacity:1;
+}
+
+.project-overlay {
+	position:absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 93.5%;
+	opacity: 0;
+	background: linear-gradient(180deg, rgba(0,0,0,0),rgba(0, 0, 0, 0.8));
+	transition: .2s ease-in;
+	margin-left:16px;
+
+}
+
+.hidden {
+	display:none;
+}
+
+.project-overlay h6 {
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    left: 35px;
+    text-transform: uppercase;
+    color: white;
+    top: 340px;
+    letter-spacing: 0px;
+}
+
+.project-overlay h2 {
+	top: 350px;
+	position: relative;
+	font-family:'Poppins','sans serif';
+	font-size: 26px;
+	font-weight:700;
+	text-decoration:none;
+	left:35px;
+	width:350px;
+	color:white;
+	letter-spacing:-1px;
+	line-height: 29px;
+}
+
+.project-overlay p {
+	top: 350px;
+ position:relative;
+  color: #B9B9B9;
+  font-size: 14px;
+  left: 35px;
+}
+
+.project-overlay a {
+	color:white;
+	text-decoration:none;
+	transition:0.2s ease-in-out
+}
+
+.project-overlay a > span {
+	transition:0.2s ease-in-out
+}
+.project-overlay a:hover > span {
+	color:#58B1BA
+}
+
+
+
+.project-overlay span {
+	position:relative;
+	left:35px;
+	top:360px;
+	color:white;
+	text-decoration:none!important;
+	cursor: pointer;
+	letter-spacing:0px
+}
+
+.project-overlay i {
+	position:relative;
+	left:35px;
+	top:360px;
+  color:white;
+  text-decoration:none;
+  cursor: pointer;
+}
+
+.image-name1{
+	position: absolute;
+	color:white;
+	top: 535px;
+	left:55px;
+
+}
+
+.image-name2{
+	position: absolute;
+	color:white;
+	top: 535px;
+	left:55px;
+
+}
+
+.image-name3{
+	position: absolute;
+	color:white;
+	top: 535px;
+	left:55px;
+
+}
+
+.image-name4{
+	position: absolute;
+	color:white;
+	top: 535px;
+	left:55px;
+
+}
+
+.image-name5{
+	position: absolute;
+	color:white;
+	top: 535px;
+	left:55px;
+
+}
+
+
+.control {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: -20px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+.prev,
+.next {
+  background-size: 22px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.prev {
+
+  left: -450px;
+  top: 380px;
+  height: 20px;
+    width: 20px;
+  background-size:contain;
+}
+.next {
+  background-image: url('../images/carousel-right.png');
+  right: 1630px;
+  top: 380px;
+  height: 20px;
+  width: 20px;
+  background-size:contain;
+}
+.prev:active,
+.next:active {
+  transform: scale(0.8);
+}
+
+#project-prev {
+	position: relative;
+    left: 260px;
+	height: 20px;
+	width: 20px;
+	top: -60px;
+}
+#project-next {
+	position: relative;
+    left: 270px;
+	height: 20px;
+	width: 20px;
+	top:-60px
+}
+.projects-header {
+   position:relative; 
+   top: 253px;
+   left: 386px;
+
+}
+
+
+.projects-desc {
+	position:relative; 
+	height: 100px;
+	top:280px;
+	left: 389px;
+	width:320px;
+}
+
+
+
+
+@media only screen and (max-width: 1566px) {
+	.projects-header {
+		position:relative; 
+		top: 223px;
+		left: 226px;
+		 width:100%;
+	 }
+	 
+	 .prev {
+
+		left: -450px;
+		top: 380px;
+		height: 20px;
+	  width: 20px;
+		background-size:contain;
+	  }
+	  .next {
+		background-image: url('../images/carousel-right.png');
+		right: 1630px;
+		top: 380px;
+		height: 20px;
+		width: 20px;
+		background-size:contain;
+	  }
+	 
+	 .projects-desc {
+		 position:relative; 
+		 height: 100px;
+		 top:250px;
+		 left: 226px;
+	 }
+
+	 .p-header {
+		left:100px;
+	 }
+	 .p-title {
+		left: 100px;
+	 }
+
+	 .p-desc {
+		left:100px;
+		width: 480px;
+	 }
+	 
+	 #project-prev {
+		position: relative; 
+		top: -60px; 
+		left: 100px;
+		height: 20px;
+		width: 20px;
+	
+	}
+	#project-next {
+		position: relative; 
+		top: -60px; 
+		left: 110px;
+	}
+
+	#project-slider-pos {
+		position:relative; 
+		left: 600px;
+	}
+	.slick-slider .slick-slide {
+		padding: 0 15px;
+		height:600px;
+	  }
+
+	  .project-overlay h2 {
+		top: 350px;
+	position: relative;
+  font-family:'Poppins',sans serif;
+  font-size: 26px;
+  font-weight:700;
+  text-decoration:none;
+  left:35px;
+	width:350px;
+}
+
+	  
+}
+
+@media only screen and (max-width:1066px){
+
+		.projects-header {
+			position: relative;
+			top: 223px;
+			left: 112px;
+			width: 100%;
+		}
+		#project-prev {
+			position: relative;
+			top: -60px;
+			left: 20px;
+			height: 20px;
+			width: 20px;
+		}
+	
+		#project-next {
+			position: relative;
+			top: -60px;
+			left: 30px;
+		}
+		.projects-desc {
+			position: relative;
+			height: 100px;
+			top: 250px;
+			left: 112px;
+		}
+		#project-slider-pos {
+			position: relative;
+			left: 490px;
+		}
+	
+		.p-header {
+			left:20px;
+		 }
+		 .p-title {
+			left: 20px;
+		 }
+	
+		 .p-desc {
+			left:20px;
+			width: 480px;
+		 }
+	
+}
+
+@media only screen and (max-width: 991px) {
+	.projects {
+		height:1000px;
+	}
+	.slick-slider .slick-slide {
+		padding: 0 15px;
+		height:600px;
+	  }
+
+	  .project-overlay {
+		position:absolute;
+		top:0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 600px;
+		width: 93.5%;
+		opacity: 0;
+		background: linear-gradient(180deg, rgba(0,0,0,0),rgba(0, 0, 0, 0.8));
+		transition: .2s ease-in;
+		margin-left:16px;
+	
+	}
+	.projects-header {
+		position:relative; 
+		top: 60px;
+		left: 40px;
+		 width:100%;
+	 }
+	 
+	 
+	 .projects-desc {
+		 position:relative; 
+		 height: 100px;
+		 width: 680px;
+		 top:80px;
+		 left: 40px;
+	 }
+	 
+	 .prev {
+	     display:none;
+	 }
+	 .next {
+	     display:none;
+	 }
+	 #project-prev {
+		display:none
+	
+	}
+	#project-next {
+		display:none
+	}
+
+	.slider-pos {
+		left: -190px;
+	}
+	.hidden-b{
+		display:none;
+	}
+	
+	#project-prev {
+		display:none
+	
+	}
+	#project-next {
+		display:none
+	}
+	#project-slider-pos {
+		position: relative;
+		left: 60px;
+		top: 240px;
+	}
+	
+	
+
+	.p-header {
+		bottom: 540px;
+		left:80px
+	 }
+	 .p-title {
+		left:80px;
+		bottom: 530px;
+	 }
+
+	 .p-desc {
+		left:80px;
+		bottom: 510px;
+		width: 650px;	
+	 }
+}
+
+@media only screen and (max-width: 768px) {
+	.projects {
+		height:1000px;
+	}
+	.slick-slider .slick-slide {
+		padding: 0 15px;
+		height:600px;
+	  }
+
+	  .project-overlay {
+		position:absolute;
+		top:0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 600px;
+		width: 93.5%;
+		opacity: 0;
+		background: linear-gradient(180deg, rgba(0,0,0,0),rgba(0, 0, 0, 0.8));
+		transition: .2s ease-in;
+		margin-left:16px;
+	
+	}
+	.projects-header {
+		position:relative; 
+		top: 60px;
+		left: 40px;
+		 width:100%;
+	 }
+	 
+	 
+	 .projects-desc {
+		 position:relative; 
+		 height: 100px;
+		 width: 680px;
+		 top:80px;
+		 left: 40px;
+	 }
+	 
+	 .prev {
+
+  left: -2000px;
+  top: 380px;
+  height: 20px;
+    width: 20px;
+  background-size:contain;
+}
+.next {
+  background-image: url('../images/carousel-right.png');
+  right: -2000px;
+  top: 380px;
+  height: 20px;
+  width: 20px;
+  background-size:contain;
+}
+	 
+	 #project-prev {
+		display:none!important
+	
+	}
+	#project-next {
+		display:none!important
+	}
+
+	#project-slider-pos {
+		position: relative;
+		left: 60px;
+		top: 270px;
+	}
+
+	.p-title {
+		width:80%;
+	}
+
+	.p-desc {
+		width:80%;
+	}
+	
+	.slider-pos {
+		left: -190px;
+	}
+	  
+	.hidden-b{
+		display:none;
+	}
+}
+
+@media only screen and (max-width:605px) {
+	#project-slider-pos {
+		position: relative;
+		left: 60px;
+		top: 320px;
+	}
+
+	.projects {
+		height:1110px
+	}
+}
+
+@media only screen and (max-width: 590px){
+	.projects {
+		height: 1080px;
+	}
+}
+
+@media only screen and (max-width:510px) {
+	.projects {
+		height:1000px;
+	}
+	.slick-slider .slick-slide {
+		padding: 0 10px;
+		height:470px;
+	  }
+	
+	  
+	 .project-images {
+		height:449px;
+		width: 323px;
+	 } 
+
+	  .project-overlay {
+		position:absolute;
+		top:0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 449px;
+		width: 323px;
+		opacity: 0;
+		background: linear-gradient(180deg, rgba(0,0,0,0),rgba(0, 0, 0, 0.8));
+		transition: .2s ease-in;
+		margin-left:16px;
+	
+	}
+
+	.hidden {
+		display:none;
+	}
+	
+	.project-overlay h6{
+	  position:relative;
+	  font-size: 16px;
+	  left:35px;
+	  color: white;
+	  top:230px;
+	}
+	
+	.project-overlay h2 {
+			top: 240px;
+		position: relative;
+	  font-family:'Poppins',sans serif;
+	  font-size: 26px;
+	  font-weight:700;
+	  text-decoration:none;
+	  left:35px;
+	  white-space:pre;
+	}
+	
+	.project-overlay p {
+		top: 300px;
+	 position:relative;
+	  color: #B9B9B9;
+	  font-size: 14px;
+	  left: 35px;
+	  display:none;
+	}
+	
+	.project-overlay span {
+		position:relative;
+		left:35px;
+		top:260px;
+	  color:white;
+	  text-decoration:underline;
+	  cursor: pointer;
+	}
+	
+	.project-overlay i {
+		position:relative;
+		left:35px;
+		top:261px;
+	  color:white;
+	  text-decoration:none;
+	  cursor: pointer;
+	}
+
+	.image-name1{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	}
+	
+	.image-name2{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	
+	}
+	
+	.image-name3{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	
+	}
+	
+	.image-name4{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	
+	}
+	
+	.image-name5{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	
+	}
+
+
+
+	.projects-header {
+		position:relative; 
+		top: 60px;
+		left: 40px;
+		 width:100%;
+	 }
+	 
+	 
+	 .projects-desc {
+		 position:relative; 
+		 height: 100px;
+		 width:290px;
+		 top:80px;
+		 left: 40px;
+		
+	 }
+	 
+	 	 .prev {
+
+  left: -2000px;
+  top: 380px;
+  height: 20px;
+    width: 20px;
+  background-size:contain;
+  display:none !important;
+}
+.next {
+  background-image: url('../images/carousel-right.png');
+  right: -2000px;
+  top: 380px;
+  height: 20px;
+  width: 20px;
+  background-size:contain;
+  display:none !important;
+}
+
+	 
+	 #project-prev {
+		display:none
+	
+	}
+	#project-next {
+		display:none
+	}
+
+	#project-slider-pos {
+		position: relative;
+		left: 30px;
+		top: 390px;
+	}
+
+	.p-header {
+		left:40px;
+	 }
+
+	
+	 .p-title {
+		left: 40px;
+		width:70%;
+	 }
+
+	 .p-desc {
+		left:40px;
+		width: 80%;
+		padding-bottom:40px;
+	 }
+
+	.hidden-b{
+		display:none;
+	}
+	
+
+}
+
+@media only screen and (max-width: 480px) {
+	.projects {
+		height:1000px;
+	}
+	.slick-slider .slick-slide {
+		padding: 0 10px;
+		height:470px;
+	  }
+	
+	  
+	 .project-images {
+		height:459px;
+		width: 343px;
+	 } 
+
+	  .project-overlay {
+		position:absolute;
+		top:0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 459px;
+		width: 343px;
+		opacity: 0;
+		background: linear-gradient(180deg, rgba(0,0,0,0),rgba(0, 0, 0, 0.8));
+		transition: .2s ease-in;
+		margin-left:16px;
+	
+	}
+
+	.hidden {
+		display:none;
+	}
+	
+	.project-overlay h6{
+	  position:relative;
+	  font-size: 16px;
+	  left:35px;
+	  color: white;
+	  top:230px;
+	}
+	
+	.project-overlay h2 {
+			top: 240px;
+		position: relative;
+	  font-family:'Poppins',sans serif;
+	  font-size: 26px;
+	  font-weight:700;
+	  text-decoration:none;
+	  left:35px;
+	  white-space:pre;
+	}
+	
+	.project-overlay p {
+		top: 300px;
+	 position:relative;
+	  color: #B9B9B9;
+	  font-size: 14px;
+	  left: 35px;
+	  display:none;
+	}
+	
+	.project-overlay span {
+		position:relative;
+		left:35px;
+		top:260px;
+	  color:white;
+	  text-decoration:underline;
+	  cursor: pointer;
+	}
+	
+	.project-overlay i {
+		position:relative;
+		left:35px;
+		top:261px;
+	  color:white;
+	  text-decoration:none;
+	  cursor: pointer;
+	}
+
+	.image-name1{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	}
+	
+	.image-name2{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	
+	}
+	
+	.image-name3{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	
+	}
+	
+	.image-name4{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	
+	}
+	
+	.image-name5{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	
+	}
+
+
+
+	.projects-header {
+		position:relative; 
+		top: 60px;
+		left: 40px;
+		 width:100%;
+	 }
+	 
+	 
+	 .projects-desc {
+		 position:relative; 
+		 height: 100px;
+		 width:333px;
+		 top:80px;
+		 left: 40px;
+	 }
+	 
+	 	 .prev-pos {
+    position:relative;
+  left: -2000px;
+  top: 380px;
+    display:none !important;
+}
+.next {
+  background-image: url('../images/carousel-right.png');
+  position:relative;
+  right: -2000px;
+  top: 380px;
+  height: 20px;
+  width: 20px;
+  background-size:contain;
+  display:none !important;
+}
+
+	 
+	 #project-prev {
+		display:none;
+	
+	}
+	#project-next {
+		display:none;
+	}
+
+	
+	
+	.hidden-b{
+		display:none;
+	}
+
+	
+
+}
+
+
+@media only screen and (max-width: 390px) {
+	.projects {
+		height:1030px;
+	}
+	.slick-slider .slick-slide {
+		padding: 0 10px;
+		height:470px;
+	  }
+	
+	  
+	 .project-images {
+		height:449px;
+		width: 323px;
+	 } 
+
+	  .project-overlay {
+		position:absolute;
+		top:0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 449px;
+		width: 323px;
+		opacity: 0;
+		background: linear-gradient(180deg, rgba(0,0,0,0),rgba(0, 0, 0, 0.8));
+		transition: .2s ease-in;
+		margin-left:16px;
+	
+	}
+
+	.hidden {
+		display:none;
+	}
+	
+	.project-overlay h6{
+	  position:relative;
+	  font-size: 16px;
+	  left:35px;
+	  color: white;
+	  top:230px;
+	}
+	
+	.project-overlay h2 {
+			top: 240px;
+		position: relative;
+	  font-family:'Poppins',sans serif;
+	  font-size: 26px;
+	  font-weight:700;
+	  text-decoration:none;
+	  left:35px;
+	  white-space:pre;
+	}
+	
+	.project-overlay p {
+		top: 300px;
+	 position:relative;
+	  color: #B9B9B9;
+	  font-size: 14px;
+	  left: 35px;
+	  display:none;
+	}
+	
+	.project-overlay span {
+		position:relative;
+		left:35px;
+		top:260px;
+	  color:white;
+	  text-decoration:underline;
+	  cursor: pointer;
+	}
+	
+	.project-overlay i {
+		position:relative;
+		left:35px;
+		top:261px;
+	  color:white;
+	  text-decoration:none;
+	  cursor: pointer;
+	}
+
+	.image-name1{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	}
+	
+	.image-name2{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	
+	}
+	
+	.image-name3{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	
+	}
+	
+	.image-name4{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	
+	}
+	
+	.image-name5{
+		position: absolute;
+		color:white;
+		top: 390px;
+		left:55px;
+	
+	}
+
+
+
+	.projects-header {
+		position:relative; 
+		top: 60px;
+		left: 40px;
+		 width:100%;
+	 }
+	 
+	 
+	 .projects-desc {
+		 position:relative; 
+		 height: 100px;
+		 width:290px;
+		 top:80px;
+		 left: 40px;
+		
+	 }
+	 
+	 	 .prev {
+
+  left: -2000px;
+  top: 380px;
+  height: 20px;
+    width: 20px;
+  background-size:contain;
+  display:none !important;
+}
+.next {
+  background-image: url('../images/carousel-right.png');
+  right: -2000px;
+  top: 380px;
+  height: 20px;
+  width: 20px;
+  background-size:contain;
+  display:none !important;
+}
+
+	 
+	 #project-prev {
+		display:none
+	
+	}
+	#project-next {
+		display:none
+	}
+
+	#project-slider-pos {
+		position: relative;
+		left: 0px;
+		top: 420px;
+	}
+
+	.p-header {
+		left:40px;
+	 }
+	 .p-title {
+		left: 40px;
+	 }
+
+	 .p-desc {
+		left:40px;
+		width: 80%;
+		padding-bottom:40px;
+	 }
+
+	.hidden-b{
+		display:none;
+	}
+	
+
+}
